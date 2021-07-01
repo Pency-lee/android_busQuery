@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.myapplication.TabFragment_02"
+    android:orientation="vertical"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        style="@style/InputBoxStyle"
+        android:layout_marginTop="10dp"
+        >
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_busstation"
+            android:layout_marginLeft="5dp">
+
+        </ImageButton>
+        <EditText
+            android:id="@+id/stationname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:layout_marginLeft="5dp"
+            android:hint="请输入站点名称"/>
+
+    </LinearLayout>
+
+    <Button
+
+        android:id="@+id/stationsearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查询"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:background="@drawable/border_input_box"/>
+
+</LinearLayout>
